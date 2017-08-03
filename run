@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find ./ -name "*.png" | while read f ; do 
+ruby resize.rb $f; done
